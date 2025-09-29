@@ -1,0 +1,1 @@
+# shinkanji-home-page
