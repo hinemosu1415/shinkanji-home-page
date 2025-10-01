@@ -1,0 +1,50 @@
+.topimg {
+  display: flex;
+  height: 80vh; /* 画面の高さ100% */
+}
+
+.topimg {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  padding-top: 0px; /* ヘッダーの高さに合わせて調整 */
+  box-sizing: border-box;
+}
+
+.topimg p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 2rem;
+  margin: 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.topimg img {
+  height: calc(100vh - 60px); /* ヘッダー高さを引く */
+  width: auto;
+  object-fit: cover;
+}
+
+.topimg-text {
+  writing-mode: vertical-rl; /* 縦書き（右から左へ） */
+  text-align: center;
+  flex: 1; /* 左右で分割 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.topimg-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topimg-image img {
+  height: 100vh; /* 画像を縦いっぱいに */
+  width: auto;   /* アスペクト比を維持 */
+  object-fit: cover; /* はみ出す場合は切り取り */
+}
