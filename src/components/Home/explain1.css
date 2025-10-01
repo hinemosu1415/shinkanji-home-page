@@ -1,0 +1,22 @@
+.explain-container {
+  display: flex;
+  align-items: center;   /* 上下を中央に揃える */
+  justify-content: space-between;
+  gap: 2rem;             /* 写真と文章の間隔 */
+  padding: 2rem;
+}
+
+/* 左側の画像 */
+.explain-container img {
+  width: 40%;            /* 写真の横幅 */
+  height: auto;
+  object-fit: cover;     /* アスペクト比を保ってトリミング */
+  border-radius: 8px;    /* 角丸にしたい場合 */
+}
+
+/* 右側のテキスト */
+.explain-text {
+  width: 55%;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
