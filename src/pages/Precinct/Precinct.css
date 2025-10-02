@@ -1,0 +1,10 @@
+.about {
+  padding: 20px;
+  text-align: left; /* 本文は左揃え */
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center; /* タイトルのみ中央揃え */
+}

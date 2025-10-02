@@ -1,4 +1,4 @@
-import testimg from '../../../assets/test.jpg'
+import testimg from '../../../assets/Home/test1.jpg'
 import './Topimg.css'
 
 function Topimg() {

@@ -1,7 +1,7 @@
 import Overview from '../../../components/Home/overview1'
-import testImg from '../../../assets/test3-1.jpg'
-import testImg2 from '../../../assets/test3-2.jpg'
-import testImg3 from '../../../assets/test3-3.jpg'
+import testImg from '../../../assets/Home/test3-1.jpg'
+import testImg2 from '../../../assets/Home/test3-2.jpg'
+import testImg3 from '../../../assets/Home/test3-3.jpg'
 
 
 function Precinct() {
@@ -15,7 +15,7 @@ function Precinct() {
 
     return (
         <main>
-            <Overview title="境内の紹介" items={data} link="/" />
+            <Overview title="境内の紹介" items={data} link="/Precinct" />
         </main>
     )
 }

@@ -1,4 +1,5 @@
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -6,8 +7,8 @@ function Header() {
       <h1>真観寺</h1>
       <nav>
         <ul className="nav-list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><Link to="/">ホーム</Link></li>
+          <li><Link to="/precinct">境内</Link></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
