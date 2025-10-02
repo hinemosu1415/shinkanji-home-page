@@ -1,0 +1,55 @@
+.event-slider {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%; /* 横幅を80%に */
+}
+
+.slider-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.slider-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #f2f2f2;
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  min-height: 300px; /* 高さを確保して大きめに */
+}
+
+.slider-image {
+  width: 40%; /* 横幅の40%を画像に */
+  height: 250px; /* 高さを大きめに */
+  object-fit: cover;
+  margin-right: 30px;
+  border-radius: 12px;
+}
+
+.slider-text {
+  flex: 1;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.slider-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}

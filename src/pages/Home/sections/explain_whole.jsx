@@ -1,5 +1,5 @@
 import Explain from '../../../components/Home/explain1'
-import explainImage from '../../../assets/test2.jpg'
+import explainImage from '../../../assets/Home/test2.jpg'
 
 function ExplainWhole() {
   return (
