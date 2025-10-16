@@ -1,4 +1,4 @@
-import Overview from '../../../components/Home/overview1'
+import Overview from '../../../components/Home/Overview1'
 import testImg from '../../../assets/Home/test3-1.jpg'
 import testImg2 from '../../../assets/Home/test3-2.jpg'
 import testImg3 from '../../../assets/Home/test3-3.jpg'

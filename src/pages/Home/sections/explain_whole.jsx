@@ -1,4 +1,4 @@
-import Explain from '../../../components/Home/explain1'
+import Explain from '../../../components/Home/Explain1'
 import explainImage from '../../../assets/Home/test2.jpg'
 
 function ExplainWhole() {

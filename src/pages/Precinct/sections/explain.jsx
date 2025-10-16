@@ -1,4 +1,4 @@
-import Explain from '../../../components/Home/explain1'
+import Explain from '../../../components/Home/Explain1'
 import explainImage from '../../../assets/Precinct/test1.jpg'
 
 function Precinct_kannondou() {

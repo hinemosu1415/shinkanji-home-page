@@ -1,0 +1,56 @@
+.overview {
+  padding: 1rem;
+  border-radius: 10px;
+  background: #a4a4a4;
+}
+
+/* タイトル行 */
+.overview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overview-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #333;
+  padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  background: #eee;
+}
+
+.overview-slider {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.overview-slider button {
+  border: none;
+  background: #ddd;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.overview-items {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.overview-item {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.overview-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
